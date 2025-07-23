@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #111;
+}
+
+/* Hide scrollbar for TaskList */
+#TaskList::-webkit-scrollbar {
+  display: none;
+}
+#TaskList {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
